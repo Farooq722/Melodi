@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="outerlayer">
+        <div class="details">
+            <div class="name">
+                <h1>Jawan</h1>
+            </div>
+            <div class="info">
+                <p>Made with ❤️ by Farooq</p>
+            </div>
+        </div>
+
+        <div class="musicbox">
+            <div class="top">
+                <div class="circle">
+                    <a href="#"><i class="ri-more-2-fill"></i></a>
+                </div>
+                <span>Now Playing</span>
+                <div class="circle">
+                    <a href="https://github.com/Farooq722" target="_blank"><i class="ri-github-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="albumbox">
+                <div class="album">
+                    <!-- <img src="./img/wal.jpeg" alt=""> -->
+                </div>
+            </div>
+
+            <div class="songname">
+                <div class="songdetails">
+                    <h2>farooq</h2>
+                    <h2>songs</h2>
+                </div>
+            </div>
+
+            <audio src="songs/jawan_bgm.mp3" class="jawan"></audio>
+
+            <div class="slidebar">
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                  </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-items">
+                    <i class="ri-repeat-2-line" id="size"></i>
+                    <i class="ri-rewind-mini-fill previous-play" id="size"></i>
+                    <button class="btn"><i class="ri-play-circle-fill play" id="playsize" onclick="playmusic()"></i></button>
+                    <i class="ri-speed-mini-fill forward-play" id="size"></i>
+                    <i class="ri-play-list-line" id="size"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="musiclist.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
